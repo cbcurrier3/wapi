@@ -1,0 +1,1124 @@
+/* General ---------------------------------------- */
+ 
+
+.x-form-invalid, textarea.x-form-invalid
+{
+	background-color: transparent !important;
+	background: none;
+}
+
+.x-form-cb-label-after {
+	vertical-align: bottom !important; 
+   	position: relative;
+}
+
+.x-form-checkbox {
+	vertical-align: text-bottom !important;  
+}
+
+
+/* @@ ~~~ Loading mask ~~~ */
+.ext-el-mask /* for every blocking mask except initial loading mask */
+{
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.webui-onload .ext-el-mask /* make loading mask not transparent */
+{
+    -moz-opacity: 1;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+
+#loading .loading-indicator {
+  background:  url("../images/comp/loading/loading.gif") no-repeat;
+  padding:    0;
+  margin:     8px;
+  width: 138px;
+  height: 149px;
+}
+
+
+/*Auto License**/
+
+/*Blades Icons*/
+.no_lic_small_icon
+{
+    background: url('../images/license/no_license1.gif') no-repeat !important;
+}
+.license_image_small
+{
+    background: url('../images/license/license1.gif') no-repeat left bottom !important;
+}
+.blades_firewall
+{
+    background: url('../images/license/firewall.png') no-repeat !important;
+}
+
+.blades_vpn
+{
+    background: url('../images/license/site_to_site_vpn.png') no-repeat !important;
+}
+
+.blades_sd
+{
+    background: url('../images/license/ips.png') no-repeat !important;
+}
+
+.blades_av
+{
+    background: url('../images/license/anti_virus.png') no-repeat !important;
+}
+
+.blades_filtering
+{
+    background: url('../images/license/url_filtering.png') no-repeat !important;
+}
+
+.blades_anti_spam
+{
+    background: url('../images/license/anti_spam.png') no-repeat !important;
+}
+.blades_app_control
+{
+    background: url('../images/license/application_control.png') no-repeat !important;
+}
+.blades_ia
+{
+    background: url('../images/license/blade.identity_awareness-small1.png') no-repeat !important;
+}
+.blades_anti_bot
+{
+    background: url('../images/license/anti-bot.png') no-repeat !important;
+}
+.blades_emulation_local
+{
+    background: url('../images/license/threat_emulation.png') no-repeat !important;
+}
+.blades_emulation_cloud
+{
+    background: url('../images/license/threat_cloud.png') no-repeat !important;
+}
+.blades_extraction
+{
+    background: url('../images/license/threat_extraction.png') no-repeat !important;
+}
+.blades_dlp
+{
+    background: url('../images/license/dlp1.png') no-repeat !important;
+}
+.blades_mobile_access
+{
+    background: url('../images/license/mobile_access1.png') no-repeat !important;
+}
+.blades_network
+{
+    background: url('../images/license/network.png') no-repeat !important;
+}
+.blades_logging_and_status
+{
+    background: url('../images/license/logging_and_status.png') no-repeat !important;
+}
+.blades_threat
+{
+	background: url('../images/license/blade.te-small1.png') no-repeat !important;
+}
+.blades_monitoring
+{
+    background: url('../images/license/monitoring.png') no-repeat !important;
+}
+.blades_smart_event
+{
+    background: url('../images/license/smart_event.png') no-repeat !important;
+}
+.blades_complience
+{
+    background: url('../images/license/complience.png') no-repeat !important;
+}
+.blades_capsule
+{
+    background: url('../images/license/capsule.png') no-repeat !important;
+}
+.blades_vsx
+{
+    background: url('../images/license/vsx.png') no-repeat !important;
+}
+.blades_global_policy
+{
+    background: url('../images/license/global_policy.png') no-repeat !important;
+}
+
+.blades_data_awareness
+{
+    background: url('../images/license/Data_Awareness_16.png') no-repeat !important;
+}
+
+.blades_unknown
+{
+    background: url('../images/license/generic1.png') no-repeat !important;
+}
+
+/*
+ * Center panel
+ *******************************************************************************
+ */
+ 
+.cp-x-editorgrid {
+    border-top:     1px solid #949694;
+    border-bottom:  1px solid #949694;
+    border-left:    1px solid #949694;
+    border-right:   1px solid #949694;
+}
+
+.cp-x-editorgrid  .x-grid3-header{
+    background-image:url('/images/mainframe/grid3-hrow2-blue.gif');
+}
+.ux-grid3-hd-wrap,
+.x-grid3-hd-inner {
+    color: #fff;
+    font-weight: bold;
+}
+
+/*ftw*/
+.half_bottom_space
+{
+    padding-bottom: 5px;
+}
+.link_button{
+    background:url('/images/mainframe/bread-arrow.png') left center no-repeat;
+    padding-left: 10px;
+}
+
+.link_button_down{
+    background:url('/images/mainframe/arrow-down.png') left center no-repeat;
+    padding-left: 10px;
+}
+
+ 
+
+
+
+
+/*
+ * End of center panel
+ *******************************************************************************
+ */
+
+ 
+/* @@ ~~~ ICONS ~~~ */
+.icon_ok_left{
+    background:url('/images/icons/OK.png') left 0px no-repeat !important; 
+}
+
+.icon_warning_left{ 
+    background:url('/images/icons/warning.png') left 0px no-repeat !important; 
+}
+
+.icon_red_warning_left{ 
+    background:url('/images/icons/red_warning.png') left 0px no-repeat !important; 
+}
+
+.icon_temperature_left{
+    background:url('/images/icons/temperature.png') left 0px no-repeat !important; 
+}
+ 
+.icon_fan_left{
+    background:url('/images/icons/fan.png') left 0px no-repeat !important; 
+} 
+
+.icon_voltage_left{
+    background:url('/images/icons/voltage.png') left 0px no-repeat !important; 
+} 
+
+.icon_power_left{
+    background:url('/images/icons/power.png') left 0px no-repeat !important; 
+}
+.icon_bios_sensor{
+    background:url('/images/icons/bios_sensor.png') left 0px no-repeat !important; 
+}
+.icon_ok{
+    background:url('../images/icons/OK.png') center 0px no-repeat !important; 
+}
+.icon-ok-grid-progress{
+    background: url('../images/icons/OK.png') center no-repeat !important; 
+    height: 20px;
+}
+
+
+
+.webui4-indicator-icon{
+	background:url('../images/icons/indicator.gif') left center no-repeat !important; 
+}
+ 
+ /*
+ * Progress column CSS *****************************************************************
+ */
+.x-grid3-progresscol .x-progress-bar {
+  height: 18px;
+  background-color: #d0e5fe;
+}
+
+.x-progress-bar {
+    border: none;
+}
+
+.x-progress-text {
+	height: 18px;
+	line-height: 16px;
+}
+
+.x-grid3-progresscol .x-progress-inner {
+  height: 18px;
+}
+
+.x-progress-wrap {
+    border:1px solid;
+    overflow:hidden;
+}
+
+/*
+ * End of progress column *****************************************************************
+ */
+
+ /* Raid icons classes */
+
+.raid-status-ok,
+.raid-status-warning,
+.raid-status-error
+{
+    padding-left: 25px !important;
+}
+.raid-status-ok
+{
+	height:16px;
+    background: url('../images/icons/status-icons_04.png') no-repeat 0px;
+}
+.raid-status-warning
+{	
+	height:16px;
+	background: url('../images/icons/status-icons_09.png') no-repeat 0px;
+}
+.raid-status-error
+{
+	height:16px;
+	background: url('../images/icons/status-icons_05.png') no-repeat 0px;
+}
+ 
+ 
+ /* cluster icons classes */
+
+.member-status-normal,
+.member-status-error,
+.member-status-attention,
+.member-status-info,
+.member-status-work-in-progress,
+.member-up,
+.member-down,
+.member-local
+{
+    padding-left: 25px !important;
+}
+.member-up
+{
+    background: url('../images/icons/cluster_member_remote_up.png') no-repeat 0px;
+}
+.member-down
+{
+	background: url('../images/icons/cluster_member_remote_down.png') no-repeat 0px;
+}
+.member-local
+{
+	background: url('../images/icons/cluster_member_local.png') no-repeat 0px;
+}
+.member-status-normal
+{
+	height:16px;
+    background: url('../images/icons/cluster_status_all_fine.png') no-repeat 0px;
+}
+.member-status-error
+{
+	height:16px;
+	background: url('../images/icons/cluster_status_error.png') no-repeat 0px;
+}
+.member-status-attention
+{
+	height:16px;
+	background: url('../images/icons/cluster_status_attention.png') no-repeat 0px;
+}
+.member-status-info
+{
+	height:16px;
+    background: url('../images/icons/cluster_status_information.png') no-repeat 0px;
+}
+.member-status-work-in-progress
+{
+	height:16px;
+	background: url('../images/icons/cluster_status_operation_in_progress.png') no-repeat 0px;
+}
+
+
+
+
+.shutdown
+{
+	background: url('../images/comp/loading/loading-reboot.gif') no-repeat 20px;
+	padding-left: 60px !important;
+}
+.interface-field-margin{
+    margin-left: 17px !important;
+}
+ 
+
+ 
+ 
+/*
+* WebUI Components
+*******************************************************************************
+*/
+
+ 
+/* @@ ~~~ section title ~~~ */
+
+.webui-fieldset span.x-fieldset-header-text{
+    font-weight: bold;
+    color: #6582ce;
+    padding-right: 7px;
+    line-height: 12px;
+}
+
+/* @@ ~~~ section title quick setup ~~~ */
+.webui-quick-setup-fieldset span.x-fieldset-header-text{
+    font-weight: bold;
+    color: #6582ce;
+    background-color: #f1f1f1;
+    padding-right: 7px;
+    line-height: 12px;
+}
+
+/* @@ ~~~ invalid class for fields ~~~ */
+.webui-invalid{
+    border: 1px solid #e90202;
+}
+
+/* @@ ~~~ main panel ~~~ */
+.webui-main-panel
+{
+    padding: 0 24px 21px;
+}
+
+/* @@ ~~~ fieldset ~~~ */
+.webui-fieldset legend
+{
+    display: block;
+    width: 100%;
+    background: url('../images/comp/section-title.gif') repeat-x left center;
+}
+
+
+/* @@ ~~~ grid ~~~ */
+.webui-grid
+{
+    margin-bottom: 50px;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #878787;
+    background-color: #f1f1f1;
+}
+.webui-grid .x-grid3-header
+{
+    padding: 0;
+    background: url('../images/comp/table/top.png') repeat-x left top;
+}
+.webui-grid .x-grid3-header-offset
+{
+    height: 26px;
+}
+.webui-grid .x-grid3-hd-row td 
+{
+    border-left-color: #8193D3;
+    border-right-color: #586CA9;
+}
+.webui-grid .x-grid3-hd-inner
+{
+    /*css3 - FF3.5+, Opera 9+, Saf1+, Chrome and hopefully IE9  */
+    text-shadow: 0 -1px 1px #2B427B; 
+}
+.webui-grid td.x-grid3-hd-over .x-grid3-hd-inner, 
+.webui-grid td.sort-desc .x-grid3-hd-inner, 
+.webui-grid td.sort-asc .x-grid3-hd-inner, 
+.webui-grid td.x-grid3-hd-menu-open .x-grid3-hd-inner 
+{
+    background-image: url('../images/comp/table/top.png');
+    background-position: 0 0;
+}
+.webui-grid .sort-asc .x-grid3-sort-icon 
+{
+    background-image: url('../images/comp/table/sort-up.png');
+}
+.webui-grid .sort-desc .x-grid3-sort-icon 
+{
+    background-image: url('../images/comp/table/sort-down.png');
+}
+
+/* @@ ~~~ list view ~~~ */
+.webui-listview .x-list-header{
+    background-image: url('../images/comp/table/top.png');
+    background-color: #fff;
+    height: 26px;
+}
+.webui-listview .x-list-header em{
+    color: #fff;
+    /*css3 - FF3.5+, Opera 9+, Saf1+, Chrome and hopefully IE9  */
+    text-shadow: 0 -1px 1px #2B427B;
+}
+.webui-listview .x-list-selected,
+.webui-listview .x-list-over{
+    background-color: #DFE8F6;
+}
+
+/* @@ ~~~ Terminal Fonts ~~~ */
+.webui-console-panel {
+    background-color: #000;
+}
+.webui-console-panel * {
+    font-family: courier-new, monospace !important;
+    font-size: 13px;
+}
+
+/* @@ ~~~ RowEditor ~~~ */
+.webui-grid .x-row-editor-body
+{
+    background: #ccc;
+}
+.webui-grid .x-row-editor .x-btns .x-plain-body
+{
+    background: #ccc;
+}
+
+
+
+/* @@ ~~~ modal window ~~~ */
+.webui-modal-win .x-window-tl,
+.webui-modal-win .x-window-ml,
+.webui-modal-win .x-window-bl
+{
+    padding-left: 4px;
+}
+.webui-modal-win .x-window-tr,
+.webui-modal-win .x-window-mr,
+.webui-modal-win .x-window-br
+{
+    padding-right: 4px;
+}
+.webui-modal-win .x-window-tl .x-window-header
+{
+    padding: 5px 0 1px;
+}
+.webui-modal-win .x-tool 
+{
+    background-image: url("../images/comp/modals/x-normal.png");
+    height: 18px;
+    width: 31px;
+}
+.webui-modal-win .x-tool-close-over 
+{
+    background-image: url("../images/comp/modals/x-hover.png");
+    background-position: 0 0;
+}
+.webui-modal-win .x-window-header-text
+{
+    color: #fff;
+    padding-left: 2px;
+}
+.webui-modal-win .x-window-ml,
+.webui-modal-win .x-window-body,
+.webui-modal-win .x-window-mc
+{
+    background-color: #f1f1f1;
+}
+.webui-modal-win .x-window-tl 
+{
+    background-image: url("../images/comp/modals/top-left.png");
+}
+.webui-modal-win .x-window-tr 
+{
+    background-image: url("../images/comp/modals/top-right.png");
+}
+.webui-modal-win .x-window-tc 
+{
+    background-image: url("../images/comp/modals/top.png");
+}
+.webui-modal-win .x-window-ml 
+{
+    background-image: url("../images/comp/modals/left.png");
+}
+.webui-modal-win .x-window-mr 
+{
+    background-image: url("../images/comp/modals/right.png");
+}
+.webui-modal-win .x-window-bl 
+{
+    background-image: url("../images/comp/modals/bottom-left.png");
+}
+.webui-modal-win .x-window-br 
+{
+    background-image: url("../images/comp/modals/bottom-right.png");
+}
+.webui-modal-win .x-window-bc 
+{
+    background-image: url("../images/comp/modals/bottom.png");
+    height: 4px;
+}
+.webui-modal-win .x-panel-btns 
+{
+    background-image: url("../images/comp/modals/modal-footer.png");
+}
+
+/* @@ ~~~ container ~~~ */
+.webui-container {
+    padding: 0 24px 24px;
+}
+
+/* @@ ~~~ tab panel ~~~ */
+.webui-tabpanel {
+    background-color: #f1f1f1;
+}
+.webui-tabpanel-container{
+    margin-top: 30px;
+}
+.webui-tabpanel-body {
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+
+
+/* @@ ~~~ Time Box ~~~ */
+.webui-time-box{
+    border: 0 none !important;
+}
+.webui-time-box .field-body .x-box-inner{
+	height: 22px !important;
+}
+.webui-time-box .x-box-item .x-box-inner{
+    background-color: #f1f1f1;
+}
+
+/* @@ ~~~ IP Field ~~~ */
+.webui-ipfield{
+    background: url('../extjs/resources/images/default/form/text-bg.gif') repeat-x #fff;
+    border: 1px solid #9F9F9F;
+    padding-top: 2px;
+}
+.webui-ipfield.webui-invalid {
+    border: 1px solid #E90202;
+}
+.webui-ipv4notation .webui-ipfield.webui-invalid {
+    border: 1px solid #9F9F9F;
+}
+.webui-ipfield .x-box-inner{
+    background-color: transparent;
+}
+.webui-ipfield .octet-sep{
+    text-align: center;
+    padding-top: 3px;
+}
+.webui-ipfield .octet-field{
+    border: 0 none;
+    padding-top: 0;
+    background: none transparent;
+    height: 19px;
+    text-align: center;
+    padding: 0;
+}
+
+/* @@ ~~~ Disabled composite-field ~~~ */
+.webui-disabled{
+    border: 1px solid #DFDFDF;
+}
+
+/*
+* WebUI Pages
+*******************************************************************************
+*/
+
+
+/* @@ ~~~ mainframe - change password ~~~ */
+.password_strength_img_0
+{
+    background:url('../images/icons/pass_0.png') no-repeat;
+}
+
+.password_strength_img_1
+{
+   background:url('../images/icons/pass_1.png') no-repeat; 
+}
+
+.password_strength_img_2
+{
+    background:url('../images/icons/pass_2.png') no-repeat;
+}
+
+.password_strength_img_3
+{
+    background:url('../images/icons/pass_3.png') no-repeat;
+}
+
+.password_strength_img_4
+{
+    background:url('../images/icons/pass_4.png') no-repeat;
+}
+
+.password_strength_default_position{
+	background-position: right -9px;
+}
+.change_pwd_strength_default_position{
+    background-position: 300px -9px;
+}
+
+/* @@ ~~~ Job Schedular ~~~ */
+.cron-job-seperator
+{
+    background: url('../images/comp/section-title.gif') repeat-y center;
+    font-size: 1px; 
+    margin-right: 20px;
+}
+
+/* @@ ~~~ advanced VRRP page ~~~ */
+.ext-webkit #global-vrrp-settings input
+{
+    margin-left: 3px;
+}
+
+/* @@ ~~~ Users page ~~~ */
+.user_predefined,
+.user_defined{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 18px !important;
+}
+.user_predefined {
+    background-image: url('../images/icons/user-padlock.png');
+}
+.user_defined {
+    background-image: url('../images/icons/user_predefined.png');
+}
+.login-icon{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 18px !important;
+    background: url('../images/icons/login.png') no-repeat;
+}
+
+.lock_on-icon{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 18px !important;
+    background: url('../images/icons/lock-yes.png') no-repeat;
+}
+
+
+
+/* Ext4: Overrides ---------------------------------------- */
+
+/* @@ ~~~ panel ~~~ */
+.x-panel-body {
+    border-color: #BDBDBD;
+}
+
+/* @@ ~~~ fonts size ~~~ */
+.x-reset .x-form-item,
+.x-reset .x-form-field, 
+.x-reset .x-form-display-field,
+.x-reset .x-form-item-label {
+    font-size: 11px;
+}
+
+/* @@ ~~~ fields height ~~~ */
+.x-reset .x-field-default-toolbar .x-form-text {
+    height: 20px;
+}
+
+/* @@ ~~~ qtips (Ext.tip.Tip) with yellow (=#ffffe1) background ~~~ */
+.x-tip {
+    background-color: #FFFFE1;
+    border-color: #97978D;
+}
+
+/* @@ ~~~ Software Updates Progress Column (Ext.ux.grid.column.Progress) ~~~ */
+.x-progress-col-wrap {
+    border-color:#8E8E8E;
+    position: relative;
+	overflow:hidden;
+	height:23px;
+}
+
+.x-progress-col-inner {
+	padding-top:2px;
+	padding-left:3px;
+}
+
+.x-progress-col-bar {
+    background-image:url('../../images/icons/progressbar.png');
+    border-top-color:navy;
+    border-bottom-color:navy;
+    border-right-color:navy;
+    border-left-color:navy;
+	height:18px;
+	padding-top:3px;
+	position:absolute;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-radius:3px;
+}
+
+.x-progress-col-text {
+    font-size:11px;
+    font-weight:bold;
+    color:black;
+    position: relative;
+    text-align: center;
+	padding-top:2px;
+}
+
+.x-progress-col-text-back {
+    color:black;
+}
+
+.x-progress-col-text-front {
+    color:black;
+}
+
+
+/* Ext4: Components ---------------------------------------- */
+
+/* @@ ~~~ webui panels ~~~ */
+.webui4-panel-body,
+.webui4-tabpanel-body,
+.webui4-datapanel-body,
+.webui4-formpanel-body{
+    background: none !important;
+    font-size: 11px !important;
+    color: black;
+}
+
+
+/* @@ ~~~ invalid class for fields ~~~ */
+.webui4-invalid-field{
+    border-color: #e90202 !important;
+}
+
+/* @@ ~~~ IP Field ~~~ */
+.webui4-ipfield .octet-sep{
+    border-top: 1px solid #B5B8C8;
+    border-bottom: 1px solid #B5B8C8;
+    height: 22px;
+    line-height: 21px;
+    font-weight: bold;
+    background: url('../extjs4/resources/themes/images/default/form/text-bg.gif') repeat-x scroll 0 0 #fff;
+}
+.webui4-ipfield .octet-field input,
+.webui4-ipfield .octet-field.isfirst input,
+.webui4-ipfield .octet-field.islast input{
+    padding: 0;
+    text-align: center;
+}
+.webui4-ipfield .octet-field input{
+    border-right: 0 none;
+    border-left: 0 none;
+}
+.webui4-ipfield .octet-field.isfirst input{
+    border-right: 0 none;
+    border-left: 1px solid #B5B8C8;
+}
+.webui4-ipfield .octet-field.islast input{
+    border-right: 1px solid #B5B8C8;
+    border-left: 0 none;
+}
+.x-form-invalid-qs  .x-form-invalid-icon{
+    left: 240px !important;
+}
+.webui4-octet-invalid-field{
+   background: url('../images/comp/invalid-bg.png') repeat-x scroll 0 0 #fff !important;
+}
+.webui4-ipfield-invalid input,
+.webui4-ipfield-invalid .octet-sep{
+    border-color: #e90202 !important;
+}
+
+/* @@ ~~~ grid ~~~ */
+.webui-bbar{
+    margin-bottom: 13px !important;
+}
+
+.summary-grid{
+        border-width: 0;
+        border-color: white !important;
+        border-style: none;
+        border: 0 none;
+        border-left: 0 none !important;
+	    border-right: 0 none !important;
+}
+
+.blades-grid{
+        border-left: 2px solid #ededed !important;
+}
+
+#ftw_blades_grid .x-grid-row .x-grid-cell {
+	background-color: transparent !important;	
+	border-bottom: 0.1px #ededed;
+	border-left: 0.3px solid #ededed !important;	
+}
+
+.summary-column{
+	 border-bottom: 0 none !important;
+	 border-left: 0 none !important;
+	 border-right: 0 none !important;
+}
+
+
+
+/* Ext4: Mainframe structure ---------------------------------------- */
+
+/* @@ ~~~ tree ~~~ */
+
+/*header*/
+.main-navtree .x-panel-header {
+    border-color: none; 
+    box-shadow: none; 
+	background-image: none;
+	background-color: white;
+}
+.main-navtree .x-tab-icon {
+    display: none;
+}
+.main-navtree .webui_tree_viewmode {
+    background: white none;
+	border-top: dotted 2px #f1f1f1;
+}
+div#webui_tree_viewmode_btn  {
+    border-color: #828282; /* dark grey */
+}
+span#webui_tree_viewmode_btn-btnInnerEl {
+    text-align: left;
+}
+.x-ie .main-navtree .x-toolbar-default  {
+    background-image: none !important;
+}
+.main-navtree .x-grid-body {
+	border-top: dotted 2px #f1f1f1 !important; /* grey */
+
+}
+/*tabs*/
+.main-navtree .x-tab-bar-strip-default {
+    border-color: #2e3978;
+    background-color: #fff29d;
+}
+.main-navtree .webui4-tabpanel-body {
+    border-top: 0 none;
+}
+.x-grid-row-selected .x-grid-cell, .x-grid-row-selected .x-grid-rowwrap-div{
+	background-color: #d1e6ff !important;
+}
+
+.main-navtree .x-scroller-vertical{
+	border: none ;
+}
+.main-navtree .x-tab-default-top {
+    border-bottom: 0 none !important;
+}
+.main-navtree .x-tab {
+    border-color: #2E3978;
+}
+/*nodes*/
+.main-navtree .webui4-tree-parent,
+.main-navtree .webui4-tree-parent-first {
+    padding: 4px 0;
+}
+.main-navtree .x-grid-cell-first {
+    padding-top: 4px;
+}
+.main-navtree .x-tree-elbow,
+.main-navtree .x-tree-elbow-end { 
+    display: none;
+}
+.main-navtree .webui4-tree-parent-first .x-tree-elbow { 
+    display: block;
+}
+/*icons*/
+.maint { 
+    background: url('../images/icons/maint.png') left no-repeat !important; 
+}
+.highavail { 
+    background: url('../images/icons/ha.png') left no-repeat !important; 
+}
+.dynroute { 
+    background: url('../images/icons/dynroute.png') left no-repeat !important; 
+}
+.users { 
+    background: url('../images/icons/users.png') left no-repeat !important; 
+}
+.network { 
+    background: url('../images/icons/network.png') left no-repeat !important; 
+}
+.device { 
+    background: url('../images/icons/device.png') left no-repeat !important; 
+}
+.overview { 
+    background: url('../images/icons/overview.png') left no-repeat !important; 
+}
+.su { 
+    background: url('../images/icons/su.png') left no-repeat !important; 
+}
+
+.su_new { 
+    background: url('../images/icons/su_new.png') left no-repeat !important; 
+}
+
+.element,
+.x-tree-icon-leaf { 
+    background-image: url('../images/icons/element.png');
+    background-repeat: no-repeat;
+}
+
+/* Ext4: Pages ---------------------------------------- */
+
+/* @@ ~~~ overview ~~~ */
+.overview-no-items{
+    background: url('../images/overview/device_overview.png') no-repeat left top;
+}
+
+/* @@ ~~~ rbaroles ~~~ */
+.roles-readwrite,
+.roles-readonly,
+.roles-undefined{
+    height: 15px;
+}
+.roles-readwrite,
+.roles-readonly{
+    cursor: pointer;
+}
+.roles-readwrite{
+    background: url('../images/icons/readwrite.png') no-repeat 2px center;
+}
+.roles-readonly{
+    background: url('../images/icons/readonly.png') no-repeat 2px center;
+}
+.roles-undefined{
+    background: url('../images/mainframe/arrow-down.png') no-repeat right center;
+}
+.roles-menu-icon-readwrite,
+.roles-menu-icon-readonly,
+.roles-menu-icon-undefined{
+    padding-left: 23px !important;
+    color: #b8cfee !important; 
+}
+.roles-menu-icon-readwrite{
+    background: url('../images/icons/readwrite.png') no-repeat 7px center !important;
+}
+.roles-menu-icon-readonly{
+    background: url('../images/icons/readonly.png') no-repeat 7px center !important;
+}
+.roles-menu-icon-undefined{
+    background: none transparent !important;
+}
+.roles-boundlist-item{
+    padding: 0;
+}
+.roles-user-lock{
+	padding-left: 10px !important;
+	background: url('../webui/images/hmenu-lock.png') no-repeat 0px center !important;
+}
+
+/* @@ ~~~ FieldSet ~~~ */
+.webui4-fieldset legend div{
+	font-weight: bold;
+	color: #6582ce;
+}
+
+.x-grid-dirty-cell{
+	background: transparent;
+}
+    
+
+/* Job Scheduler's   Add/Edit  combo box  for days in week and days in month*/
+
+.webui4-combocheck{
+	background-color: #FFFFFF;
+	cursor: pointer !important;
+}
+    
+
+.webui4-combocheck-item{
+    padding: 2px 8px 1px 16px !important;
+	background: url('../extjs4/resources/themes/images/gray/menu/unchecked.gif') no-repeat 0px center !important;
+	cursor: pointer !important;
+}	
+
+
+.webui4-combocheck-selected{
+	background-color: transparent !important; 
+	background: url('../extjs4/resources/themes/images/gray/menu/checked.gif') no-repeat 0px center !important;
+}
+
+
+.blade-title{
+    font-size: 14px;
+    text-shadow: 0 0 0px;
+    font-weight: bold !important;
+}
+
+.x-datepicker-date:hover {
+    background-color: #d1e6ff !important;
+}
+.x-datepicker-date-selected:hover {
+    background-color: #2e5c91 !important;
+	color: white;
+}
+ 
+ table.x-datepicker-inner .x-datepicker-today a {
+    border: none;
+	background-color: #2e5c91 !important;
+	color: white;
+    border-radius: 2px;
+}
+
+.x-boundlist-selected {
+    background-color: #2e5c91 !important;
+	color: white;
+} 
+.x-boundlist-item:hover {
+    background-color: #d1e6ff !important;
+}
+ 
+.toppanel-main-container .x-toolbar .x-toolbar-separator-horizontal {
+    border-right: none;
+	border-left: 1px solid #98c8ff;
+}

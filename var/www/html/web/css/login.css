@@ -1,0 +1,218 @@
+* 
+{
+	font-size: 11px;
+	font-family: Arial, Verdana, sans-serif;
+	margin: 0px;
+}
+body 
+{
+	font-size: 11px;
+	background-color: #e3e3e3;
+	margin: 0;
+	text-align: center;	
+}
+.ext-webkit .x-btn-text,
+.ext-chrome .x-btn-text
+{
+    padding: 1px 6px;
+}
+.x-panel-body
+{
+	background-color: transparent;
+}
+.webui-not-supported-msg
+{
+    background-color: #F0F0F0;
+    border: 1px solid #8F8F8F;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 8px;
+}
+.webui-not-supported-msg .x-panel-body
+{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#webui_login_chpass_mainpanel 
+{
+	background: url(/chpass/login_chpass_bg.png) no-repeat center top;
+}
+#webui_login_mainpanel 
+{
+	background: url(/images/login_small.png) no-repeat center top;
+}
+.webui_login_mainpanel 
+{
+	margin: auto;
+ 	text-align: left;
+	vertical-align: middle;
+	display: block;
+}
+
+.webui_version_hbox {
+	color: #cd7393; 
+	font-size: 12px;
+	margin: 144px 0 0 0;
+} 
+
+#version_toolbar_portal {
+	text-align: right;
+	padding-right: 4px;
+	font-size: 12px;
+	background-color: #1f2a3d;
+}
+
+#login-version {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #1f2a3d;
+}
+
+.banner-msg-text{
+  color: #2F3D5F;
+    font-weight: bold;
+    padding-bottom: 4px; 
+}
+#hostname_caption_id
+{
+    text-align: center;
+    font-weight: bolder; 
+    color: #cd7393;
+    margin: 16px 10px 0px 10px;
+}
+ .banner-msg-text,
+#hostname_caption_id   /* deal with overflow */
+{
+	overflow-wrap: break-word;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+} 
+.webui_login_mainpanel .webui_login_chpass_banner
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ext-ie .webui_login_mainpanel .webui_login_chpass_banner 
+{
+    margin-bottom: none;
+}
+.webui_login_mainpanel form 
+{
+	background-color: transparent;
+}
+.webui-login-label
+{
+    color: #17233F;
+    margin-bottom: 10px;
+}
+.webui_login_mainpanel .x-btn-noicon .x-btn-small .x-btn-text 
+{
+    height: auto;
+}
+.ext-chrome .x-btn-text
+{
+    padding: 1px 6px;
+}
+.webui_login_mainpanel .x-form-field 
+{
+    font: inherit;
+}
+.webui_login_mainpanel .login-error
+{
+    color: red;
+    margin-left: 75px;
+	padding-top: 5px;
+    display: block;
+}
+.login_chpass-error
+{
+    color: red;
+    display: block;
+}
+.webui_login_mainpanel .webui_login_form 
+{
+    padding: 30px 18px 0px 30px;
+}
+
+.banner-msg-wrapper .info_icon{
+  background: url('/login/info.png') no-repeat;
+}
+
+#webui_login_chpass_form
+{
+   padding: 20px 15px 10px 20px; 
+}
+.ext-ie #webui_login_chpass_form
+{
+   padding: 8px 15px 8px 20px; 
+}
+
+.ext-ie .x-panel-btns
+{
+	padding: 0px;
+}
+
+.webui_login_logo_panel 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/login/mark-word-icon.png) no-repeat left top;
+}
+
+.webui_login_hbox
+{
+	padding: 10px 10px 0px 10px;
+}
+
+.webui-login-html5-qtip
+{
+    background-color: #E7EEF7;
+    border: 1px solid #9F9F9F;
+}
+::-ms-reveal {
+    display: none;
+}
+ .login_toolbar 
+{
+   background-color: transparent;
+   border: none;
+}
+ 
+.login_button
+{		
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+           border-radius: 4px;
+   width: 110px;
+   height: 30px;
+   background-image: none;
+   background-color: #69951c;/* green button */
+}
+
+.login_button .login_button_icon {
+  background: url('/login/login_arrow.png');
+	padding-right: 21px !important;
+}
+
+.login_button .x-btn-text
+{	
+   color: white !important;
+   font-size: 15px;
+   text-align: center;
+}
+.login_button:hover {
+   background-color: #71a517;
+}
+.login_button:active {
+   background-color: #5c8515;
+}
+/* #version_separator{
+	color: white;
+} */
+
+ #bottom_text {
+    margin-top: 20px;
+} 

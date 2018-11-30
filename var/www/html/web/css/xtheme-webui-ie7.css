@@ -1,0 +1,8 @@
+.ext-ie7 .x-form-text
+{
+     margin: 0;
+}
+.ext-ie7 .x-small-editor .x-form-text
+{
+     height: 19px !important;
+}

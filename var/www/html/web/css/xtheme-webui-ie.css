@@ -1,0 +1,42 @@
+#top_west_hostname {
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=0, Color='#2B427B');
+}
+#tb_tools .x-form-trigger
+{
+    margin-top: 1px;
+}
+.toppanel-search
+{
+    height: 19px !important;
+}
+.ext-ie .x-btn button
+{
+    padding-top: 0;
+}
+.webui-tabpanel .centerPanel-right-tab.x-item-disabled
+{
+    filter: none;
+}
+.ext-ie8 .main-navtree .x-tab-strip .x-tab-right,
+.ext-ie8 .x-tab-strip .x-tab-right
+{
+	margin-bottom: -1px !important;
+}
+.ext-ie #global-vrrp-settings input,
+.ext-ie #global-vrrp-settings span
+{
+    margin-left: 3px;
+}
+.ext-ie .webui-modal-win .x-fieldset
+{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.webui-grid .x-grid3-hd-inner
+{
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=0, Color='#2B427B');
+}
+.webui-grid .sort-asc .x-grid3-hd-inner
+{
+    filter: none;
+}
